@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Kedro
+.kedro/
+logs/
+*.log
+
+# Data (NO SUBIR DATOS GRANDES)
+data/01_raw/*.csv
+data/01_raw/*.json
+data/01_raw/*.txt
+data/02_intermediate/*.csv
+data/02_intermediate/*.parquet
+data/03_primary/*.parquet
+data/04_feature/*.parquet
+data/05_model_input/*.parquet
+data/06_models/*.pkl
+data/06_models/*.h5
+data/07_model_output/*.csv
+data/08_reporting/*.csv
+data/08_reporting/*.json
+data/08_reporting/*.parquet
+
+# Mantener estructura de carpetas
+!data/*/.gitkeep
+
+# Airflow
+airflow/logs/
+airflow/*.db
+airflow/*.pid
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+*.db
+
+# Large files
+*.zip
+*.tar.gz
+*.pkl
+*.h5
+*.hdf5

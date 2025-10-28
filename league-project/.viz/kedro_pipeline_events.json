@@ -1,0 +1,997 @@
+[
+  {
+    "event": "before_pipeline_run",
+    "timestamp": "2025-10-28T00:24:47.849227+00:00"
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "matchinfo",
+    "node_id": "f226fe8e",
+    "status": "Available",
+    "size": 2146150
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "kills",
+    "node_id": "4b11e02d",
+    "status": "Available",
+    "size": 33961653
+  },
+  {
+    "event": "after_node_run",
+    "node": "aggregate_kills_node",
+    "node_id": "b0171e88",
+    "duration": 0.12757080000301357,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "features_with_kills",
+    "node_id": "4d2c9808",
+    "status": "Available",
+    "size": 459697
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "raw_bans",
+    "node_id": "72da9d2d",
+    "status": "Available",
+    "size": 2159571
+  },
+  {
+    "event": "after_node_run",
+    "node": "clean_bans_node",
+    "node_id": "394295f2",
+    "duration": 0.02741239999886602,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "intermediate_bans",
+    "node_id": "94637aba",
+    "status": "Available",
+    "size": 2174812
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "raw_gold",
+    "node_id": "c422691b",
+    "status": "Available",
+    "size": 36368635
+  },
+  {
+    "event": "after_node_run",
+    "node": "clean_gold_node",
+    "node_id": "95734c15",
+    "duration": 0.28550650000033784,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "intermediate_gold",
+    "node_id": "91d7219b",
+    "status": "Available",
+    "size": 40432592
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "raw_kills",
+    "node_id": "6e2c7109",
+    "status": "Available",
+    "size": 33961653
+  },
+  {
+    "event": "after_node_run",
+    "node": "clean_kills_node",
+    "node_id": "b38ed367",
+    "duration": 0.31972400000086054,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "intermediate_kills",
+    "node_id": "7ddb292e",
+    "status": "Available",
+    "size": 34115356
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "raw_main_data",
+    "node_id": "5867f2e1",
+    "status": "Available",
+    "size": 46924413
+  },
+  {
+    "event": "after_node_run",
+    "node": "clean_main_dataset_node",
+    "node_id": "1234453f",
+    "duration": 0.32390330000271206,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "intermediate_main_data",
+    "node_id": "b5037626",
+    "status": "Available",
+    "size": 47041771
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "raw_matchinfo",
+    "node_id": "f884079f",
+    "status": "Available",
+    "size": 2146150
+  },
+  {
+    "event": "after_node_run",
+    "node": "clean_matchinfo_node",
+    "node_id": "543d8baf",
+    "duration": 0.02675950000048033,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "intermediate_matchinfo",
+    "node_id": "fb3be0e5",
+    "status": "Available",
+    "size": 2153771
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "raw_monsters",
+    "node_id": "77aebd2f",
+    "status": "Available",
+    "size": 5821457
+  },
+  {
+    "event": "after_node_run",
+    "node": "clean_monsters_node",
+    "node_id": "3ef4c269",
+    "duration": 0.05056469999908586,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "intermediate_monsters",
+    "node_id": "1163597c",
+    "status": "Available",
+    "size": 5865706
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "raw_structures",
+    "node_id": "12a93911",
+    "status": "Available",
+    "size": 16949611
+  },
+  {
+    "event": "after_node_run",
+    "node": "clean_structures_node",
+    "node_id": "e2427de9",
+    "duration": 0.14829889999964507,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "intermediate_structures",
+    "node_id": "b874d541",
+    "status": "Available",
+    "size": 16180672
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "features_with_kills",
+    "node_id": "4d2c9808",
+    "status": "Available",
+    "size": 459697
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "monsters",
+    "node_id": "c7937c4c",
+    "status": "Available",
+    "size": 5821457
+  },
+  {
+    "event": "after_node_run",
+    "node": "aggregate_monsters_node",
+    "node_id": "4bd558f3",
+    "duration": 0.06789209999988088,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "features_with_monsters",
+    "node_id": "136565d0",
+    "status": "Available",
+    "size": 483596
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_bans",
+    "node_id": "94637aba",
+    "status": "Available",
+    "size": 2174812
+  },
+  {
+    "event": "after_node_run",
+    "node": "analyze_champion_bans_node",
+    "node_id": "82729bf6",
+    "duration": 1.0320528000011109,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "champion_bans_analysis",
+    "node_id": "60b17f80",
+    "status": "Available",
+    "size": 3646
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_main_data",
+    "node_id": "b5037626",
+    "status": "Available",
+    "size": 47041771
+  },
+  {
+    "event": "after_node_run",
+    "node": "analyze_correlations_node",
+    "node_id": "2e210a15",
+    "duration": 0.030874500000209082,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "correlations_analysis",
+    "node_id": "ce69b673",
+    "status": "Available",
+    "size": 629
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_main_data",
+    "node_id": "b5037626",
+    "status": "Available",
+    "size": 47041771
+  },
+  {
+    "event": "after_node_run",
+    "node": "analyze_game_duration_node",
+    "node_id": "1ecc8805",
+    "duration": 0.019509300000208896,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "game_duration_analysis",
+    "node_id": "36cbdbbd",
+    "status": "Available",
+    "size": 303
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_monsters",
+    "node_id": "1163597c",
+    "status": "Available",
+    "size": 5865706
+  },
+  {
+    "event": "after_node_run",
+    "node": "analyze_neutral_objectives_node",
+    "node_id": "8db48bba",
+    "duration": 0.05092770000192104,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "neutral_objectives_analysis",
+    "node_id": "5d940afc",
+    "status": "Available",
+    "size": 618
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_structures",
+    "node_id": "b874d541",
+    "status": "Available",
+    "size": 16180672
+  },
+  {
+    "event": "after_node_run",
+    "node": "analyze_structures_node",
+    "node_id": "6e4b513b",
+    "duration": 0.03466359999947599,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "structures_analysis",
+    "node_id": "ea44cb31",
+    "status": "Available",
+    "size": 484
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_main_data",
+    "node_id": "b5037626",
+    "status": "Available",
+    "size": 47041771
+  },
+  {
+    "event": "after_node_run",
+    "node": "analyze_team_performance_node",
+    "node_id": "56e01139",
+    "duration": 0.12231719999908819,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "team_performance_analysis",
+    "node_id": "3c776c74",
+    "status": "Available",
+    "size": 6036
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_main_data",
+    "node_id": "b5037626",
+    "status": "Available",
+    "size": 47041771
+  },
+  {
+    "event": "after_node_run",
+    "node": "generate_descriptive_stats_node",
+    "node_id": "bf8e62d3",
+    "duration": 0.08148400000209222,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "descriptive_statistics",
+    "node_id": "2b9fd9df",
+    "status": "Available",
+    "size": 455
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_main_data",
+    "node_id": "b5037626",
+    "status": "Available",
+    "size": 47041771
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_matchinfo",
+    "node_id": "fb3be0e5",
+    "status": "Available",
+    "size": 2153771
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_bans",
+    "node_id": "94637aba",
+    "status": "Available",
+    "size": 2174812
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_gold",
+    "node_id": "91d7219b",
+    "status": "Available",
+    "size": 40432592
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_kills",
+    "node_id": "7ddb292e",
+    "status": "Available",
+    "size": 34115356
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_monsters",
+    "node_id": "1163597c",
+    "status": "Available",
+    "size": 5865706
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "intermediate_structures",
+    "node_id": "b874d541",
+    "status": "Available",
+    "size": 16180672
+  },
+  {
+    "event": "after_node_run",
+    "node": "generate_quality_report_node",
+    "node_id": "c3a26709",
+    "duration": 1.4981178999987605,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "data_quality_report",
+    "node_id": "ab01274d",
+    "status": "Available",
+    "size": 415
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "features_with_monsters",
+    "node_id": "136565d0",
+    "status": "Available",
+    "size": 483596
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "structures",
+    "node_id": "41b426fb",
+    "status": "Available",
+    "size": 16949611
+  },
+  {
+    "event": "after_node_run",
+    "node": "aggregate_structures_node",
+    "node_id": "1937f9b1",
+    "duration": 0.16822400000091875,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "features_with_structures",
+    "node_id": "f9ef5ff9",
+    "status": "Available",
+    "size": 510746
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "descriptive_statistics",
+    "node_id": "2b9fd9df",
+    "status": "Available",
+    "size": 455
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "team_performance_analysis",
+    "node_id": "3c776c74",
+    "status": "Available",
+    "size": 6036
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "champion_bans_analysis",
+    "node_id": "60b17f80",
+    "status": "Available",
+    "size": 3646
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "neutral_objectives_analysis",
+    "node_id": "5d940afc",
+    "status": "Available",
+    "size": 618
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "structures_analysis",
+    "node_id": "ea44cb31",
+    "status": "Available",
+    "size": 484
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "correlations_analysis",
+    "node_id": "ce69b673",
+    "status": "Available",
+    "size": 629
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "game_duration_analysis",
+    "node_id": "36cbdbbd",
+    "status": "Available",
+    "size": 303
+  },
+  {
+    "event": "after_node_run",
+    "node": "generate_eda_report_node",
+    "node_id": "74ff2e10",
+    "duration": 0.0061711000016657636,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "eda_complete_report",
+    "node_id": "57432685",
+    "status": "Available",
+    "size": 441
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "features_with_structures",
+    "node_id": "f9ef5ff9",
+    "status": "Available",
+    "size": 510746
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "gold",
+    "node_id": "09feb137",
+    "status": "Available",
+    "size": 36368635
+  },
+  {
+    "event": "after_node_run",
+    "node": "aggregate_gold_node",
+    "node_id": "ccdbbc22",
+    "duration": 4.496953400001075,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "features_complete",
+    "node_id": "e6e60607",
+    "status": "Available",
+    "size": 608091
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "features_complete",
+    "node_id": "e6e60607",
+    "status": "Available",
+    "size": 608091
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "params:model_options",
+    "node_id": "ab512939",
+    "status": "Available",
+    "size": 0
+  },
+  {
+    "event": "after_node_run",
+    "node": "select_features_node",
+    "node_id": "13efa1f5",
+    "duration": 0.008561599999666214,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "model_input_table",
+    "node_id": "23c94afb",
+    "status": "Available",
+    "size": 177150
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "model_input_table",
+    "node_id": "23c94afb",
+    "status": "Available",
+    "size": 177150
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "params:model_options",
+    "node_id": "ab512939",
+    "status": "Available",
+    "size": 0
+  },
+  {
+    "event": "after_node_run",
+    "node": "split_data_node",
+    "node_id": "48349666",
+    "duration": 0.02885969999988447,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "X_train",
+    "node_id": "cae2d1c7",
+    "status": "Available",
+    "size": 176632
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "X_test",
+    "node_id": "872981f9",
+    "status": "Available",
+    "size": 56713
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "y_reg_train",
+    "node_id": "eb378de0",
+    "status": "Available",
+    "size": 146944
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "y_reg_test",
+    "node_id": "22d586c2",
+    "status": "Available",
+    "size": 37207
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "y_cls_train",
+    "node_id": "eae4c9ae",
+    "status": "Available",
+    "size": 146941
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "y_cls_test",
+    "node_id": "988c9c18",
+    "status": "Available",
+    "size": 37204
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "X_train",
+    "node_id": "cae2d1c7",
+    "status": "Available",
+    "size": 176632
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "X_test",
+    "node_id": "872981f9",
+    "status": "Available",
+    "size": 56713
+  },
+  {
+    "event": "after_node_run",
+    "node": "scale_features_node",
+    "node_id": "99c9eea6",
+    "duration": 0.01850909999848227,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "X_train_scaled",
+    "node_id": "f290fa38",
+    "status": "Available",
+    "size": 225609
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "X_test_scaled",
+    "node_id": "be0bf300",
+    "status": "Available",
+    "size": 73318
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "scaler",
+    "node_id": "125638bc",
+    "status": "Available",
+    "size": 1214
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "X_train_scaled",
+    "node_id": "f290fa38",
+    "status": "Available",
+    "size": 225609
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "y_cls_train",
+    "node_id": "eae4c9ae",
+    "status": "Available",
+    "size": 146941
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "params:model_options",
+    "node_id": "ab512939",
+    "status": "Available",
+    "size": 0
+  },
+  {
+    "event": "after_node_run",
+    "node": "train_classification_models_node",
+    "node_id": "3da2d09c",
+    "duration": 2.008939700001065,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "classification_models",
+    "node_id": "d98810ba",
+    "status": "Available",
+    "size": 1758702
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "X_train_scaled",
+    "node_id": "f290fa38",
+    "status": "Available",
+    "size": 225609
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "y_reg_train",
+    "node_id": "eb378de0",
+    "status": "Available",
+    "size": 146944
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "params:model_options",
+    "node_id": "ab512939",
+    "status": "Available",
+    "size": 0
+  },
+  {
+    "event": "after_node_run",
+    "node": "train_regression_models_node",
+    "node_id": "0b44f283",
+    "duration": 1.6227184000017587,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "regression_models",
+    "node_id": "44edfd47",
+    "status": "Available",
+    "size": 26972441
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "classification_models",
+    "node_id": "d98810ba",
+    "status": "Available",
+    "size": 1758702
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "params:model_options.feature_columns",
+    "node_id": "4869108f",
+    "status": "Available",
+    "size": 0
+  },
+  {
+    "event": "after_node_run",
+    "node": "classification_feature_importance_node",
+    "node_id": "669d2d57",
+    "duration": 0.07170549999864306,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "classification_feature_importance",
+    "node_id": "5e2f160c",
+    "status": "Available",
+    "size": 3235
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "classification_models",
+    "node_id": "d98810ba",
+    "status": "Available",
+    "size": 1758702
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "X_train_scaled",
+    "node_id": "f290fa38",
+    "status": "Available",
+    "size": 225609
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "X_test_scaled",
+    "node_id": "be0bf300",
+    "status": "Available",
+    "size": 73318
+  },
+  {
+    "event": "after_node_run",
+    "node": "make_classification_predictions_node",
+    "node_id": "6e12a734",
+    "duration": 0.7669754999988072,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "classification_predictions",
+    "node_id": "c8145276",
+    "status": "Available",
+    "size": 610706
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "regression_models",
+    "node_id": "44edfd47",
+    "status": "Available",
+    "size": 26972441
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "X_train_scaled",
+    "node_id": "f290fa38",
+    "status": "Available",
+    "size": 225609
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "X_test_scaled",
+    "node_id": "be0bf300",
+    "status": "Available",
+    "size": 73318
+  },
+  {
+    "event": "after_node_run",
+    "node": "make_regression_predictions_node",
+    "node_id": "0af0c269",
+    "duration": 0.08662949999779812,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "regression_predictions",
+    "node_id": "1a9fecc7",
+    "status": "Available",
+    "size": 305412
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "regression_models",
+    "node_id": "44edfd47",
+    "status": "Available",
+    "size": 26972441
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "params:model_options.feature_columns",
+    "node_id": "4869108f",
+    "status": "Available",
+    "size": 0
+  },
+  {
+    "event": "after_node_run",
+    "node": "regression_feature_importance_node",
+    "node_id": "30d8a130",
+    "duration": 0.06955369999923278,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "regression_feature_importance",
+    "node_id": "a247d1d5",
+    "status": "Available",
+    "size": 3235
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "classification_predictions",
+    "node_id": "c8145276",
+    "status": "Available",
+    "size": 610706
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "y_cls_train",
+    "node_id": "eae4c9ae",
+    "status": "Available",
+    "size": 146941
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "y_cls_test",
+    "node_id": "988c9c18",
+    "status": "Available",
+    "size": 37204
+  },
+  {
+    "event": "after_node_run",
+    "node": "evaluate_classification_node",
+    "node_id": "84e043f5",
+    "duration": 0.099137500001234,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "classification_metrics",
+    "node_id": "f14637d1",
+    "status": "Available",
+    "size": 5875
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "regression_predictions",
+    "node_id": "1a9fecc7",
+    "status": "Available",
+    "size": 305412
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "y_reg_train",
+    "node_id": "eb378de0",
+    "status": "Available",
+    "size": 146944
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "y_reg_test",
+    "node_id": "22d586c2",
+    "status": "Available",
+    "size": 37207
+  },
+  {
+    "event": "after_node_run",
+    "node": "evaluate_regression_node",
+    "node_id": "54010c3f",
+    "duration": 0.05192920000263257,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "regression_metrics",
+    "node_id": "be72a387",
+    "status": "Available",
+    "size": 5829
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "classification_metrics",
+    "node_id": "f14637d1",
+    "status": "Available",
+    "size": 5875
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "classification_feature_importance",
+    "node_id": "5e2f160c",
+    "status": "Available",
+    "size": 3235
+  },
+  {
+    "event": "after_node_run",
+    "node": "create_classification_report_node",
+    "node_id": "0c7efa53",
+    "duration": 0.013649900000018533,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "classification_report",
+    "node_id": "cf9a8b61",
+    "status": "Available",
+    "size": 1710
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "regression_metrics",
+    "node_id": "be72a387",
+    "status": "Available",
+    "size": 5829
+  },
+  {
+    "event": "after_dataset_loaded",
+    "dataset": "regression_feature_importance",
+    "node_id": "a247d1d5",
+    "status": "Available",
+    "size": 3235
+  },
+  {
+    "event": "after_node_run",
+    "node": "create_regression_report_node",
+    "node_id": "587544f8",
+    "duration": 0.009706199998618104,
+    "status": "success"
+  },
+  {
+    "event": "after_dataset_saved",
+    "dataset": "regression_report",
+    "node_id": "09ba1fb1",
+    "status": "Available",
+    "size": 1694
+  },
+  {
+    "event": "after_pipeline_run",
+    "timestamp": "2025-10-28T00:25:17.659356+00:00"
+  }
+]
