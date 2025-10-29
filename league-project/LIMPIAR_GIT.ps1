@@ -47,7 +47,13 @@ $redundantDocs = @(
     "SOLUCION_ERROR_AIRFLOW.md",
     "SOLUCION_FINAL_AIRFLOW.md",
     "CHECKLIST_DEPLOYMENT.md",
-    "CHECKLIST_EVALUACION.md"
+    "CHECKLIST_EVALUACION.md",
+    "RESUMEN_EJECUTIVO.md",
+    "EVALUACION_PARCIAL_CUMPLIMIENTO.md",
+    "airflow/dags/README.md",
+    "docs/GUIA_DATOS_CSV.md",
+    "docs/RESUMEN_PIPELINES.md",
+    "docs/GUIA_PIPELINES_LIMPIEZA_ANALISIS.md"
 )
 
 $removedDocs = 0
@@ -228,7 +234,7 @@ Write-Host "3. Verificar el repositorio:" -ForegroundColor Yellow
 Write-Host '   git ls-files | Measure-Object' -ForegroundColor Gray
 Write-Host ""
 
-Write-Host "⚠️  NOTA: Los archivos removidos seguirán en tu disco local," -ForegroundColor Yellow
+Write-Host "NOTA: Los archivos removidos seguiran en tu disco local," -ForegroundColor Yellow
 Write-Host "   solo se quitaron del seguimiento de Git." -ForegroundColor Yellow
 Write-Host ""
 Write-Host "============================================" -ForegroundColor Cyan
